@@ -9,7 +9,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface MarriageDao extends JpaRepository<MarriageCertificate, Long> {
+public interface MarriageDao extends JpaRepository<MarriageCertificate, Long>
+{
     List<MarriageCertificate> findByNumber(String number);
 
     List<MarriageCertificate> findByNum(@Param("number") String number);
