@@ -34,8 +34,8 @@ public class StudentRequest {
         return middleName;
     }
 
-    public void setMiddleName(String moddleName) {
-        this.middleName = moddleName;
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
     }
 
     public LocalDate getDateOfBirth() {
